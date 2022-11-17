@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">регистрация</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-filed" id="namefield">
+                        <div class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </div>
+                        <input type="text" placeholder="имя">
+                    </div>
+                    <div class="input-filed">
+                        <div class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <input type="email" placeholder="почта">
+                    </div>
+                    <div class="input-filed">
+                        <div class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </div>
+                        <input type="password" placeholder="пароль">
+                    </div>
+                    <p>забыли пароль <a href="#">нажать</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="singupBtn">регистрация</button>
+                    <button type="button" id="singinBtn" class="disable">войти</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
